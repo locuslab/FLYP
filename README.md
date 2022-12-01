@@ -1,6 +1,6 @@
 # FLYP: Finetune Like You Pretrain
 
-We share the code for the submitted paper to replicate the experimental results.
+Code for Finetune like you pretrain: Improved finetuning of zero-shot vision models.
 
 CREDITS: Our code is heavily based on https://github.com/mlfoundations/wise-ft and https://github.com/mlfoundations/open_clip. We thank the authors for open sourcing their code.
 
