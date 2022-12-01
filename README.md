@@ -17,7 +17,7 @@ mkdir checkpoints
 ### Add directory to PYTHONPATH:
 
 ```bash
-cd flyp_cvpr
+cd FLYP
 export PYTHONPATH="$PYTHONPATH:$PWD"
 ```
 
