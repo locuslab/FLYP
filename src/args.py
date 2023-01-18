@@ -147,6 +147,9 @@ def parse_arguments():
         help="Path to csv filewith training data",
     )
 
+    parser.add_argument('--ce_ablation', action=argparse.BooleanOptionalAction)
+
+
     parser.add_argument("--dataset-type",
                         choices=["webdataset", "csv", "auto"],
                         default="auto",
