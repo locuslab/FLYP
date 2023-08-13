@@ -34,6 +34,8 @@ python datacreation_scripts/imagenet_csv_creator.py
 python src/main.py --train-dataset=ImageNet --epochs=10 --lr=1e-5 --wd=0.1 --batch-size=512 --model=ViT-B/16 --eval-datasets=ImageNet,ImageNetV2,ImageNetR,ImageNetA,ImageNetSketch,ObjectNet  --template=openai_imagenet_template  --save=./checkpoints/ --data-location=./datasets/data/ --ft_data="./datasets/csv/imagenet.csv" --csv-img-key filepath --csv-caption-key title --exp_name=ImageNet/flyp_loss
 ```
 
+ImageNet Finetuned CLIP ViT-B-16 checkpoint can be found [here](https://drive.google.com/drive/folders/1oRPXybgzTp4lmY66XNq1n_LfN7MJHNeM).
+
 ### Script to reproduce on iWILDCam
 ```bash
 ln -s PATH_TO_YOUR_iWILDCam_DATASET ./datasets/data/iwildcam_v2.0
